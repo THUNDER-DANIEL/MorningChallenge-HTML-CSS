@@ -1,0 +1,50 @@
+h1{
+    color:blue;
+}
+
+.main_container{
+    background-color:black;
+    width: 1000px;
+    height:1000px;
+}
+.pole{
+    background-color: grey;
+    height: 10rem;
+    width: 5rem;
+    margin: auto;
+}
+.traffic_box{
+
+    background-color: grey;
+    width: 15rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.light{
+    background-image: url(https://www.searchpng.com/wp-content/uploads/2019/02/Black-Dots-background-PNG-1024x1024.png);
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%
+
+}
+
+.red{
+    background-color: red;
+
+}
+.yellow{
+    background-color: yellow;
+
+}
+
+.green{
+    background-color: green;
+    box-shadow: 0 0 5em 1em greenyellow;
+    cursor: pointer;
+
+}
